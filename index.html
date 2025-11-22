@@ -3,18 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>College Name - Home | Excellence in Education</title>
+    <title>College Name - About Us</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <style> 
+        .about-section { padding: 80px 0; }
+        .about-section h2 { margin-bottom: 20px; font-size: 2.5em; }
+        .about-section p { margin-bottom: 15px; font-size: 1.1em; }
+        .mission-vision { display: flex; gap: 30px; margin-top: 40px; }
+        .mission-vision div { flex: 1; padding: 30px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
+        .mission-vision h4 { color: var(--accent-color); margin-bottom: 10px; }
+    </style>
 </head>
 <body>
 
     <header class="main-header">
         <div class="container">
             <h1>🎓 College Name</h1>
-            
             <button class="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
-            
             <nav class="main-nav" id="main-nav">
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -28,53 +33,20 @@
     </header>
 
     <main>
-        <section class="hero-section">
+        <section class="about-section info-section">
             <div class="container">
-                <h2>Shape Your Future. Start Here.</h2>
-                <p>Leading the way in research, innovation, and global education.</p>
-                <a href="admissions.html" class="cta-button">Apply Now</a>
-            </div>
-        </section>
-
-        <section class="info-section">
-            <div class="container">
-                <h3>Why Choose Our University?</h3>
-                <div class="card-grid">
-                    
-                    <div class="card">
-                        <h4>Cutting-Edge Research</h4>
-                        <p>We foster an environment of discovery, leading innovative research across all major fields of study.</p>
+                <h2>Our Story: Fostering Excellence Since 1985</h2>
+                <p>Founded on the principles of academic rigor and community engagement, College Name has grown from a small liberal arts school into a globally recognized research institution. Our commitment remains: providing a transformative education that prepares students to lead in a changing world.</p>
+                <p>We pride ourselves on our distinguished faculty, state-of-the-art facilities, and diverse student body. Every corner of our campus is designed to inspire creativity and critical thinking.</p>
+                
+                <div class="mission-vision">
+                    <div style="background-color: var(--bg-medium);">
+                        <h4>Mission</h4>
+                        <p>To educate future leaders and innovators through holistic learning, cutting-edge research, and a commitment to service.</p>
                     </div>
-                    
-                    <div class="card">
-                        <h4>Global Connections</h4>
-                        <p>Our strong international network provides students with exchange opportunities and global career pathways.</p>
-                    </div>
-                    
-                    <div class="card">
-                        <h4>Career Success</h4>
-                        <p>With dedicated career services and high placement rates, we ensure our graduates are job-ready.</p>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-        
-        <section class="stats-section">
-            <div class="container">
-                <h3>By The Numbers</h3>
-                <div class="stat-grid">
-                    <div class="stat-item">
-                        <span class="stat-number">25,000+</span>
-                        <p>Students Enrolled</p>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-number">95%</span>
-                        <p>Graduate Placement Rate</p>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-number">50+</span>
-                        <p>Degree Programs</p>
+                    <div style="background-color: var(--bg-medium);">
+                        <h4>Vision</h4>
+                        <p>To be the premier institution known globally for intellectual discovery, entrepreneurial spirit, and positive societal impact.</p>
                     </div>
                 </div>
             </div>
